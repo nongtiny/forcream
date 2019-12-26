@@ -5,11 +5,16 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    scanResult: ""
   },
   mutations: {
+    UPDATE_SCAN_RESULT(stateData, data) {
+      stateData.scanResult = data;
+    }
   },
   actions: {
-  },
-  modules: {
+    updateScanResult({ commit }, data) {
+      commit("UPDATE_SCAN_RESULT", data);
+    }
   }
 })

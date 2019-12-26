@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "SuperSpace";
+	src: url("../assets/fonts/SuperspaceBold.ttf");
+	src:
+		url("../assets/fonts/SuperspaceBold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: fallback;
+}
+
+@font-face {
+	font-family: "SuperSpace";
+	src: url("../assets/fonts/SuperspaceRegular.ttf");
+	src:
+		url("../assets/fonts/SuperspaceRegular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: fallback;
+}

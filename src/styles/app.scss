@@ -1,0 +1,21 @@
+@import "fonts.scss";
+@import "variables.scss";
+@import "functions.scss";
+@import "animations.scss";
+
+* {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-size: 16px;
+	margin: 0 auto;
+	padding: 0 1.3125rem;
+  max-width: 42rem;
+}
+
+@import "pages/main.scss";
+@import "components/loading.scss";
