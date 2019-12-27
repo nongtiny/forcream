@@ -26,7 +26,7 @@ export default {
   },
   watch: {
     result() {
-      if (this.result.length !== '') {
+      if (this.result.length !== 0) {
         this.isLoad = true;
       } else {
         this.isLoad = false;

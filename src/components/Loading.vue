@@ -1,7 +1,7 @@
 <template>
 	<div class="loading">
 		<img
-			:src="require(`../assets/loadings/${gifNum}.gif`)"
+			:src="toPage !== '' ? require(`../assets/loadings/${gifNum}.gif`) : ''"
 			alt="loading"
 		>
 	</div>
@@ -20,14 +20,14 @@ export default {
 	},
 	data() {
 		return {
-			gifNum: 1
+			gifNum: this.toPage
 		}
 	},
 	watch: {
 		isLoad() {
-			if (this.isLoad) {
-				this.gifNum = this.getRandomInt(4)
-				this.delayOk(4000).then(() => {
+			if (this.isLoad && this.toPage !== "") {
+				this.gifNum = this.toPage
+				this.delayOk(3000).then(() => {
 					this.$router.push({ name: this.toPage })
 					this.$emit("finish", false)
 				})
@@ -35,13 +35,10 @@ export default {
 		}
 	},
 	methods: {
-		getRandomInt(max) {
-			return Math.floor(Math.random() * Math.floor(max)) + 1;
-		},
 		delayOk(time) {
 			return new Promise((resolve) => {
 				setTimeout(() => {
-					this.gifNum = "ok"
+					this.gifNum = "creamok"
 					resolve()
 				}, time)
 			})

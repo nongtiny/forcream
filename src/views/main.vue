@@ -19,6 +19,13 @@ export default {
       error: ''
     }
   },
+  beforeRouteEnter(to, from, next) {
+		// eslint-disable-next-line
+    console.log("dfdf")
+    next((vm) => {
+      vm.$store.dispatch("resetScanResult").then(() => next());
+    })
+	},
 	methods: {
     onDecode (result) {
       this.$store.dispatch('updateScanResult', result)
