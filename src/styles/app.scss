@@ -48,6 +48,28 @@ button {
   }
 }
 
+.cream1-img {
+  width: 300px;
+  height: auto;
+}
+
+.cream2-img {
+  width: 380px;
+  height: auto;
+}
+
+.flexer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cream4-extra {
+  width: 380px;
+  height: 285px;
+}
+
+
 @import "pages/main.scss";
 @import "components/loading.scss";
 @import "components/icon-arrow.scss";

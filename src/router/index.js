@@ -23,6 +23,22 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import('../views/cream1.vue')
+  },
+  {
+    path: '/cream2',
+    name: 'cream2',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/cream2.vue')
+  },
+  {
+    path: '/cream4',
+    name: 'cream4',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/cream4.vue')
   }
 ]
 

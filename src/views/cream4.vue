@@ -1,5 +1,14 @@
 <template>
 	<div>
+		<back-button />
+		<div class="flexer">
+			<img class="cream2-img" src="../assets/img/cream4-5.jpg" alt="creamtin1">
+			<img class="cream4-extra" src="../assets/img/cream4-6.jpg" alt="creamtin1">
+		</div>
+		<div class="flexer">
+			<img class="cream2-img" src="../assets/img/cream4-3.jpg" alt="creamtin1">
+			<img class="cream2-img" src="../assets/img/cream4-4.jpg" alt="creamtin1">
+		</div>
 		<p>
 			ตอนมัธยมรู้สึกว่าจะฝ่าฟันไรมาเยอะทำไรทำแม่งหมด ไม่เรื่องมากทั้งคู่ แล้วมีความสุขมากเพราะไม่มีเรื่องไรให้คิดมากทั้งนั้น
 			รอกลับบ้านาจกวัดราชพร้อมกัน เดินเล่นเซนทรัลแล้วกลับ ไปไหนก็นั่งรถเมล์ เจอกันแค่ถึง 17.00 ก็กลับไรงี้ แต่ก็มีความสุข
@@ -8,5 +17,9 @@
 			เค้าทำให้ได้ตลอดแหละแค่ไม่มีเวลา แล้วรู้อยู่แล้วว่ารักกันแต่บางทีแฟนก็ยังอยากได้ของอยู่ไปเรื่อย 5555 เพราะเค้าทำได้เพราะความรัก
 			อยากให้แฟนได้รู้ไว้นะว่าเค้ายังเหมือนเดิมรักแฟนเหมือนเดิม เค้าแค่โตขึ้นมาละขี้เกียจ บอกตรงๆ 555 แต่เค้ารักแฟนเหมือนเดิมทุกอย่างเลยนะ
 		</p>
+		<div class="flexer">
+			<img class="cream2-img" src="../assets/img/cream4-1.jpg" alt="creamtin1">
+			<img class="cream2-img" src="../assets/img/cream4-2.jpg" alt="creamtin1">
+		</div>
 	</div>
 </template>

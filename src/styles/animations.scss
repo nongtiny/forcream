@@ -18,7 +18,16 @@
 }
 
 .rotate-y-center {
-	animation: rotate-y-center 0.3 linear 3;
+	&-enter {
+		animation: rotate-y-center 0.3 linear 3;
+	}
+
+	&-enter {
+		animation: rotate-y-center 0.25;
+		animation-iteration-count: 1;
+		animation-timing-function: ease-out;
+		animation-direction: reverse;
+	}
 }
 
 @keyframes rotate-y-center {

@@ -1,7 +1,9 @@
 <template>
 	<div>
 		<back-button />
-		<h1>Hi cream1</h1>
+		<p style="text-align: center;">
+			<img class="cream1-img" src="../assets/img/cream1.png" alt="creamtin1">
+		</p>
 		<p>
 			ตั้งแต่อยู่ด้วยกันมาเค้ารักแฟนมาตลอดแต่เค้าก็ไม่ได้เป็นที่ดีตลอดเสมอไปเค้าชอบทำแฟนเสียใจอยู่บ่อยๆ
 			ไม่เหมือนกับแฟนที่ทำดีกับเค้ามาตลอด เค้าทำไรไม่ดีกับแฟนไปเค้าขอโทษแต่ก่อนแฟนชอบถ่ายรูปแบบนี้ เอาจริงๆเค้าไม่ค่อยชอบ
@@ -11,11 +13,3 @@
 		</p>
 	</div>
 </template>
-<script>
-import BackButton from '../components/BackButton'
-export default {
-	components: {
-		BackButton
-	}
-}
-</script>
