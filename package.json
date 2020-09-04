@@ -20,7 +20,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^8.0.0",
     "vue-mouse-parallax": "^1.2.2",
     "vue-qrcode-reader": "^2.1.1",
